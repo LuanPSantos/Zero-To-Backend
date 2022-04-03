@@ -35,14 +35,10 @@ public class Contact {
     }
 
     public void updateName(String name) {
-        if(name != null) {
-            this.name = name;
-        }
+        this.name = name;
     }
 
     public void updatePhone(String phone) {
-        if(phone != null) {
-            this.phone = phone;
-        }
+        this.phone = phone;
     }
 }
