@@ -1,5 +1,7 @@
 # Do Zero ao Backend
 
+![Frontend e Backend](imgs/08.png)
+
 ### INTRODUÇÃO
 
 A internet é formada por computadores semelhantes aos computadores domésticos: com processador, memória ram, placa-mãe; conectados entre si através de cabos e equipamentos de rede. Desta forma, torna-se possível um computador acessar outro (parecido como acessar as fotos do celular via cabo USB). Porém, esses computadores são um pouco especiais ba sua construção: são muito potentes e compactos, não precisam de mouse, áudio ou interface gráfica. São criados exclusivamente para servir a internet.
