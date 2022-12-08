@@ -4,7 +4,7 @@
 
 ### INTRODUÇÃO
 
-A internet é formada por computadores semelhantes aos computadores domésticos: com processador, memória ram, placa-mãe; conectados entre si através de cabos e equipamentos de rede. Desta forma, torna-se possível um computador acessar outro (parecido como acessar as fotos do celular via cabo USB). Porém, esses computadores são um pouco especiais ba sua construção: são muito potentes e compactos, não precisam de mouse, áudio ou interface gráfica. São criados exclusivamente para servir a internet.
+A internet é formada por computadores semelhantes aos computadores domésticos: com processador, memória ram, placa-mãe; conectados entre si através de cabos e equipamentos de rede. Desta forma, torna-se possível um computador acessar outro (parecido como acessar as fotos do celular via cabo USB). Porém, esses computadores são um pouco especiais na sua construção: são muito potentes e compactos, não precisam de mouse, áudio ou interface gráfica. São criados exclusivamente para servir a internet.
 
 Uma pessoa passa a fazer parte da internet quando liga o seu PC ou Smartphone, pois ele se conecta na rede, através do provedor de internet, para acessar esses outros computadores. Nesse cenário, o dispositivo utilizado pela pessoa é o que se chama Cliente e o computador que está sendo acessado de Servidor.
 
@@ -12,9 +12,9 @@ Uma pessoa passa a fazer parte da internet quando liga o seu PC ou Smartphone, p
 
 Backends são softwares especificamente criados para serem executados no servidor. Nos dispositivos dos usuários como os PC, smartphones, smart tv, também são instalados softwares específicos, chamados Frontend.
 
-O Backend é responsável por executar regras de negócios, que são procedimentos e restrições que dizem respeito a como um negócio ou parte dele funciona. Por exemplo, a regra de negócio de um desconto: compras acima de cem reais tem 20% de desconto. Já o Frontend, vai intermediar a interação do usuário com o Backend, criando-se uma camada mais amigável: com botões, animações, navegação, etc; para o usuário interagir e usufruir dos serviços disponibilizados pelo Backend através da rede.
+O Backend é responsável por executar regras de negócios, que são procedimentos e regras que dizem respeito a como um negócio ou parte dele funciona. Por exemplo, a regra de negócio de um desconto: compras acima de cem reais tem 20% de desconto. Já o Frontend, vai intermediar a comunicação do usuário com o Backend, criando-se uma camada mais amigável: com botões, animações, navegação, etc; para o usuário interagir e usufruir dos serviços disponibilizados através da rede.
 
-Esse é o modelo Cliente-Servidor. Geralmente o cliente é o Frontend e o servidor é o Backend. Quando um usuário navega na internet, o Frontend ao qual ele está interagindo, faz requisições para o Backend que realiza algum processamento e devolve uma resposta, que o Frontend interpreta e apresenta para o usuário, sempre pensando na melhor usabilidade. Essa é uma das formas de como funciona a Internet.
+Esse é o modelo Cliente-Servidor. Geralmente o cliente é o Frontend e o servidor é o Backend. Quando um usuário navega na internet, o Frontend ao qual ele está interagindo, faz requisições para o Backend que realiza algum processamento e devolve uma resposta, que o Frontend interpreta e apresenta para o usuário. Essa é uma das formas de como funciona a Internet.
 
 ![Frontend e Backend](imgs/01.png)
 
@@ -32,17 +32,15 @@ Para que ocorra uma comunicação através da rede, faz-se necessária a existê
 
 O protocolo HTTP define regras de comunicação para que dois dispositivos conectados na rede possam trocar dados entre si. Dessa forma, softwares instalados em dispositivos diferentes podem trabalhar em conjunto.
 
-Também chama-se de Cliente o software que realiza uma requisição, e chama-se de Servidor o software que processa e responde à requisição.
-
 ![Frontend e Backend - HTTP](imgs/03.png)
 
 ### REQUEST e RESPONSE
 
-Uma requisição (Request) é um pedido, uma solicitação realizada pelo software Cliente. Nela estão contidos um método HTTP, uma URL, Headers e um Request Body, que são dados extras necessários para o processamento da regra de negócio requisitada.
+Uma requisição (Request) é um pedido, uma solicitação realizada pelo software Cliente. Nela estão contidos um método HTTP, uma URL, Headers e um Request Body, que são dados extras necessários para o processamento do recurso requisitada.
 
 ![Request](imgs/04.png)
 
-Ao final da Request, é produzida uma resposta (Response). Nela estão contidos um Status Code, Headers e um Response Body.
+Ao final da Request, é produzida uma resposta (Response). Nela estão contidos um Status Code, Headers e um Response Body, contendo os dados retornados para o Cliente.
 
 ![Response](imgs/05.png)
 
